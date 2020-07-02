@@ -6,7 +6,7 @@
 
 "-p" 
 
-"C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.1\arm\CONFIG\debugger\ST\STM32F411CC.ddf" 
+"C:\Program Files (x86)\IAR Systems\Embedded Workbench 7.5\arm\CONFIG\debugger\ST\STM32F411CC.ddf" 
 
 "--drv_verify_download" 
 
@@ -14,15 +14,15 @@
 
 "--device=STM32F411CC" 
 
-"--drv_interface=SWD" 
+"--drv_communication=USB0" 
 
-"--stlink_reset_strategy=0,2" 
+"--drv_interface_speed=100" 
 
-"--drv_swo_clock_setup=96000000,0,2000000" 
+"--jlink_reset_strategy=0,0" 
 
 "--drv_catch_exceptions=0x000" 
 
-"--drv_debug_ap=0" 
+"--drv_swo_clock_setup=72000000,0,2000000" 
 
 
 

@@ -25,7 +25,7 @@ if not "%~1" == "" goto debugFile
 
 @echo on 
 
-"C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.1\common\bin\cspybat" -f "F:\Workspace\ADIS16227_LOG\EWARM\settings\ADIS16227_LOG.ADIS16227_LOG.general.xcl" --backend -f "F:\Workspace\ADIS16227_LOG\EWARM\settings\ADIS16227_LOG.ADIS16227_LOG.driver.xcl" 
+"C:\Program Files (x86)\IAR Systems\Embedded Workbench 7.5\common\bin\cspybat" -f "G:\github\DAPLink\CDC_MSC\EWARM\settings\ADIS16227_LOG.ADIS16227_LOG.general.xcl" --backend -f "G:\github\DAPLink\CDC_MSC\EWARM\settings\ADIS16227_LOG.ADIS16227_LOG.driver.xcl" 
 
 @echo off 
 goto end 
@@ -34,7 +34,7 @@ goto end
 
 @echo on 
 
-"C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.1\common\bin\cspybat" -f "F:\Workspace\ADIS16227_LOG\EWARM\settings\ADIS16227_LOG.ADIS16227_LOG.general.xcl" "--debug_file=%~1" --backend -f "F:\Workspace\ADIS16227_LOG\EWARM\settings\ADIS16227_LOG.ADIS16227_LOG.driver.xcl" 
+"C:\Program Files (x86)\IAR Systems\Embedded Workbench 7.5\common\bin\cspybat" -f "G:\github\DAPLink\CDC_MSC\EWARM\settings\ADIS16227_LOG.ADIS16227_LOG.general.xcl" "--debug_file=%~1" --backend -f "G:\github\DAPLink\CDC_MSC\EWARM\settings\ADIS16227_LOG.ADIS16227_LOG.driver.xcl" 
 
 @echo off 
 :end
